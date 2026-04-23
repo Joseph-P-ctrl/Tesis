@@ -1,0 +1,33 @@
+# Environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+*.streamlit
+
+# Models & Data (opcionales, puedes comentar para incluirlos)
+# models/*.pkl
+# data/dataset/
+
+# Temp
+*.tmp
+temp/
+tmp/

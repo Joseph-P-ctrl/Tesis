@@ -1,0 +1,10 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "outputDirectory": ".",
+  "public": false,
+  "env": {
+    "STREAMLIT_SERVER_HEADLESS": "true",
+    "STREAMLIT_SERVER_PORT": "8000",
+    "STREAMLIT_SERVER_ENABLEXSRFPROTECTION": "false"
+  }
+}

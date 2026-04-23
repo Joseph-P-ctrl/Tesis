@@ -1,0 +1,90 @@
+═══════════════════════════════════════════════════════════════
+  🎯 TARJETA DE REFERENCIA RÁPIDA - MicroExpr
+═══════════════════════════════════════════════════════════════
+
+📋 ENLACES IMPORTANTES
+─────────────────────────────────────────────────────────────
+GitHub:               https://github.com/
+Streamlit Cloud:      https://share.streamlit.io/
+Vercel:               https://vercel.com/
+Documentos:           Ver INDICE.md
+
+🚀 DESPLIEGUE EN 5 MINUTOS (Streamlit Cloud)
+─────────────────────────────────────────────────────────────
+1. Subir a GitHub
+2. Ir a https://share.streamlit.io/
+3. Conectar repo
+4. Deploy (src/app.py)
+5. ¡Listo! (espera 2-3 min)
+
+📞 RESOLVER PROBLEMAS
+─────────────────────────────────────────────────────────────
+Problema              │ Solución
+──────────────────────┼──────────────────────────────────
+Módulo no encontrado  │ pip install -r requirements.txt
+Cámara no funciona    │ Permitir acceso navegador
+No detecta rostro     │ Mejor iluminación + acercarse
+Video lento           │ Usar video < 2 minutos
+Deploy falla          │ Ver logs en Cloud settings
+
+🎨 USAR LA APP
+─────────────────────────────────────────────────────────────
+CÁMARA:
+  1. Click "Encender cámara"
+  2. Click "Capturar"
+  3. Ver resultado
+
+VIDEO:
+  1. Subir archivo
+  2. Click "Analizar video"
+  3. Descargar CSV
+
+✅ CHECKLIST PRE-DEPLOY
+─────────────────────────────────────────────────────────────
+☐ Code en GitHub
+☐ requirements.txt completo
+☐ python validate.py (OK)
+☐ Local test: streamlit run src/app.py
+☐ No errores en consola
+
+📊 TÉCNICAS RÁPIDAS
+─────────────────────────────────────────────────────────────
+Ver logs:          Cloud → Settings → Logs
+Redeploy:          Cloud → Settings → Reboot script
+Actualizar:        git push → auto-deploy (30 seg)
+Versión Python:    Crear runtime.txt con "python-3.11"
+
+💡 PRO TIPS
+─────────────────────────────────────────────────────────────
+✓ Usar HTTPS (automático en Streamlit Cloud)
+✓ Cache activado (@st.cache_resource)
+✓ Videos < 2 min para velocidad
+✓ Rostro frontal + buena iluminación
+✓ Revisar logs semanalmente
+
+🆘 EMERGENCIAS
+─────────────────────────────────────────────────────────────
+"App no carga":      Reboot script en Cloud
+"Error módulo":      Ver requirements.txt
+"Cámara bloqueada":  Permisos navegador
+"Demo mode":         Sin .pkl en models/ (normal)
+
+📞 SOPORTE
+─────────────────────────────────────────────────────────────
+Documentación:       DOCUMENTATION.md
+Setup:               TUTORIAL_PASO_A_PASO.md
+Mantenimiento:       MANTENIMIENTO.md
+Índice:              INDICE.md
+
+🎯 ORDEN DE LECTURA
+─────────────────────────────────────────────────────────────
+1️⃣  QUICK_DEPLOY.txt (hoy)
+2️⃣  TUTORIAL_PASO_A_PASO.md (después)
+3️⃣  DOCUMENTATION.md (al desplegar)
+4️⃣  MANTENIMIENTO.md (si hay problema)
+
+═══════════════════════════════════════════════════════════════
+
+VERSIÓN 1.0 | ABRIL 2026 | LISTO PARA PRODUCCIÓN ✅
+
+═══════════════════════════════════════════════════════════════

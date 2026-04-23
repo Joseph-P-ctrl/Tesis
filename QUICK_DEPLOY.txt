@@ -1,0 +1,47 @@
+# 🚀 GUÍA RÁPIDA PARA EL CLIENTE - DESPLEGAR EN STREAMLIT CLOUD
+
+## Paso 1: Ir a GitHub
+Descarga este proyecto → Sube a tu repositorio GitHub
+```
+https://github.com/TU_USUARIO/microexpr
+```
+
+## Paso 2: Ir a Streamlit Cloud
+1. Abre: https://share.streamlit.io/
+2. Click en "**Deploy an app**"
+3. Selecciona tu repositorio
+4. Completa:
+   - **Repository**: tu-usuario/microexpr
+   - **Branch**: main
+   - **Main file path**: src/app.py
+5. Click "**Deploy**"
+
+## Paso 3: ¡Listo! 🎉
+Tu app estará en: `https://microexpr-xxxxx.streamlit.app`
+
+---
+
+## ¿Problemas?
+
+| Problema | Solución |
+|----------|----------|
+| "Module not found" | Revisar `requirements.txt` |
+| App no carga | Ver logs en "Settings → View logs" |
+| Modelo no detecta rostro | Falta archivo `.pkl` en `models/` |
+| Cámara no funciona | HTTPS requerido (Streamlit Cloud lo proporciona) |
+
+---
+
+## Para Agregar Modelos Reales
+
+1. Entrenar localmente:
+   ```
+   python src/train_model.py
+   ```
+2. Copiar archivos `.pkl` a carpeta `models/`
+3. Subir a GitHub
+4. Streamlit Cloud se actualizará automáticamente
+
+---
+
+**¿Necesitas ayuda?** Contactar al equipo de desarrollo.
